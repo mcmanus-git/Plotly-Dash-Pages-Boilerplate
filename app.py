@@ -11,7 +11,7 @@ from navbar import create_navbar
 
 NAVBAR = create_navbar()
 # To use Font Awesome Icons
-FA512 = "https://use.fontawesome.com/releases/v6.2.1/css/all.css"
+FA621 = "https://use.fontawesome.com/releases/v6.2.1/css/all.css"
 APP_TITLE = "First Dash App"
 
 app = dash.Dash(
@@ -19,7 +19,7 @@ app = dash.Dash(
     suppress_callback_exceptions=True,
     external_stylesheets=[
         dbc.themes.LUX,  # Dash Themes CSS
-        FA512,  # Font Awesome Icons CSS
+        FA621,  # Font Awesome Icons CSS
     ],
     title=APP_TITLE,
     use_pages=True,
@@ -64,4 +64,4 @@ app.layout = dcc.Loading(  # <- Wrap App with Loading Component
 server = app.server
 
 if __name__ == '__main__':
-    app.run_server(debug=False)
+    app.run_server(debug=True)
