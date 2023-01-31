@@ -7,7 +7,8 @@ from navbar import create_navbar
 # The full list of available themes is:
 # BOOTSTRAP, CERULEAN, COSMO, CYBORG, DARKLY, FLATLY, JOURNAL, LITERA, LUMEN, LUX, MATERIA, MINTY, PULSE, SANDSTONE,
 # SIMPLEX, SKETCHY, SLATE, SOLAR, SPACELAB, SUPERHERO, UNITED, YETI, ZEPHYR.
-# https://dash-bootstrap-components.opensource.faculty.ai/docs/themes/
+# To see all themes in action visit:
+# https://dash-bootstrap-components.opensource.faculty.ai/docs/themes/explorer/
 
 NAVBAR = create_navbar()
 # To use Font Awesome Icons
@@ -64,4 +65,4 @@ app.layout = dcc.Loading(  # <- Wrap App with Loading Component
 server = app.server
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
