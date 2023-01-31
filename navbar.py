@@ -54,7 +54,7 @@ def create_navbar():
         brand='Home',
         brand_href="/",
         # sticky="top",  # Uncomment if you want the navbar to always appear at the top on scroll.
-        color="primary",  # Change this to change color of the navbar e.g. "primary", "secondary" etc.
+        color="dark",  # Change this to change color of the navbar e.g. "primary", "secondary" etc.
         dark=True,  # Change this to change color of text within the navbar (False for dark text)
     )
 
