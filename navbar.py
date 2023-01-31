@@ -1,9 +1,43 @@
+from dash import html
 import dash_bootstrap_components as dbc
 
 
 def create_navbar():
     navbar = dbc.NavbarSimple(
         children=[
+            dbc.NavItem(
+                dbc.NavLink(
+                    [
+                        html.I(className="fa-brands fa-github"),  # Font Awesome Icon
+                        " "  # Text beside icon
+                    ],
+                    href="[YOUR GITHUB PROFILE URL]",
+                    target="_blank"
+                )
+
+            ),
+            dbc.NavItem(
+                dbc.NavLink(
+                    [
+                        html.I(className="fa-brands fa-medium"),  # Font Awesome Icon
+                        " "  # Text beside icon
+                    ],
+                    href="[YOUR MEDIUM PROFILE URL]",
+                    target="_blank"
+                )
+
+            ),
+            dbc.NavItem(
+                dbc.NavLink(
+                    [
+                        html.I(className="fa-brands fa-linkedin"),  # Font Awesome Icon
+                        " "  # Text beside icon
+                    ],
+                    href="[YOUR LINKEDIN PROFILE URL]",
+                    target="_blank"
+                )
+
+            ),
             dbc.DropdownMenu(
                 nav=True,
                 in_navbar=True,
