@@ -5,8 +5,9 @@ from navbar import create_navbar
 
 # Toggle the themes at [dbc.themes.LUX]
 # The full list of available themes is:
-# BOOTSTRAP, CERULEAN, COSMO, CYBORG, DARKLY, FLATLY, JOURNAL, LITERA, LUMEN, LUX, MATERIA, MINTY, PULSE, SANDSTONE,
-# SIMPLEX, SKETCHY, SLATE, SOLAR, SPACELAB, SUPERHERO, UNITED, YETI, ZEPHYR.
+# BOOTSTRAP, CERULEAN, COSMO, CYBORG, DARKLY, FLATLY, JOURNAL, LITERA, LUMEN,
+# LUX, MATERIA, MINTY, PULSE, SANDSTONE, SIMPLEX, SKETCHY, SLATE, SOLAR,
+# SPACELAB, SUPERHERO, UNITED, YETI, ZEPHYR.
 # To see all themes in action visit:
 # https://dash-bootstrap-components.opensource.faculty.ai/docs/themes/explorer/
 
